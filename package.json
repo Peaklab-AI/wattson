@@ -1,0 +1,19 @@
+{
+  "name": "wattson",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev:landing": "pnpm --filter @wattson/landing dev",
+    "build:landing": "pnpm --filter @wattson/landing build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild"
+    ]
+  }
+}

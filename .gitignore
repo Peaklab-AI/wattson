@@ -1,0 +1,14 @@
+node_modules/
+dist/
+out/
+release/
+.build/
+.swiftpm/
+.vercel
+.env
+.env.*
+!.env.example
+*.pem
+!apps/landing/public/.well-known/appspecific/com.tesla.3p.public-key.pem
+.DS_Store
+*.log

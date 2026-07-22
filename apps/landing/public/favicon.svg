@@ -1,0 +1,18 @@
+<svg viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wattson-mark" x1="3" y1="17" x2="15" y2="1" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00E5FF" />
+      <stop offset="50%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#B388FF" />
+    </linearGradient>
+    <filter id="wattson-shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0.3" stdDeviation="0.4" flood-color="#0F172A" flood-opacity="0.22" />
+    </filter>
+  </defs>
+  <g filter="url(#wattson-shadow)">
+    <path
+      d="M3.846 7.013 L8.154 1.987 Q9 1 9.846 1.987 L14.154 7.013 Q15 8 15 9.3 L15 15.7 Q15 17 13.7 17 L4.3 17 Q3 17 3 15.7 L3 9.3 Q3 8 3.846 7.013 Z"
+      fill="url(#wattson-mark)"
+    />
+  </g>
+</svg>

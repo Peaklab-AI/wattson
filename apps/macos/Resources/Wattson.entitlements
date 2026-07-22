@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <!-- Direct (non-App-Store) distribution, so no App Sandbox — that also
+       means no network-client entitlement is needed; it's only enforced
+       under the sandbox. This file exists so hardened runtime (required
+       for notarization) has an entitlements plist to attach at sign time. -->
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/oauth/callback", "destination": "/api/oauth/callback" },
+    { "source": "/oauth/session", "destination": "/api/oauth/session" }
+  ]
+}
